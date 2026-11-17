@@ -6,3 +6,6 @@ logs/qc*/
 logs/smoke/
 pull.log
 smoke.out
+logs/
+judge/scans/
+*.out

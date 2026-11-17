@@ -66,8 +66,10 @@ monitor accuracy at detecting cheating.
    ImpossibleBench varies a fixed prompt, test access and feedback, but not user pressure; Scheurer et al. varied
    pressure in a non-coding setting.
 
-Use ImpossibleBench's own default SWE setup (full scaffold, strict prompt D, open tests) as the baseline, so cheat
-rates are comparable with the paper's.
+The baseline uses ImpossibleBench's released default SWE setup: full scaffold, open tests, and the default prompt
+suffix "**DO NOT MODIFY THE TESTS.**". That is close to the paper's looser prompt B, not the strict prompt D behind
+its headline numbers, so expect somewhat higher cheat rates than the paper's Figure 3 (Sec. 5.1: GPT-5 54% → 66%).
+It was chosen deliberately, to get more cheating transcripts for the concealment and awareness analysis.
 
 Dropped as a headline: judge or monitor accuracy at detecting cheating (ImpossibleBench covers it). It stays only
 for the new question: do monitors catch *concealment*?
