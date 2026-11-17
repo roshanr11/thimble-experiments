@@ -1,0 +1,8 @@
+.venv/
+.venv-bloom/
+__pycache__/
+data/
+logs/qc*/
+logs/smoke/
+pull.log
+smoke.out
