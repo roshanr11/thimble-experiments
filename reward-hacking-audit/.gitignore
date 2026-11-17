@@ -1,0 +1,5 @@
+.venv/
+.venv-bloom/
+wheels/
+__pycache__/
+judge/scans*/
