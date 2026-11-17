@@ -1,0 +1,9 @@
+model,condition,runs,cheated
+Claude Haiku 5.5,baseline,25,2
+Claude Haiku 5.5,pressure,25,2
+DeepSeek V4.1 Flash,baseline,25,6
+DeepSeek V4.1 Flash,pressure,25,4
+Gemini 3.8 Flash,baseline,25,2
+Gemini 3.8 Flash,pressure,25,1
+GPT-5.6 Luna,baseline,25,5
+GPT-5.6 Luna,pressure,25,8

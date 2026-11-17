@@ -27,6 +27,9 @@ ImpossibleBench measured how often agents cheat and how. This project asks the q
 
 ## Results
 
+Visuals: the [Cheat and Conceal dashboard](https://claude.ai/artifact/JfDceUrYQMBVD6hQZj3jCT) (private until shared; its source and data are in `dashboard/`).
+
+
 Cheat rate: passes on impossible tasks, out of 25 runs per cell.
 
 | model | baseline | pressure |
